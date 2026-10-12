@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data & Persistence directories (don't commit local vector db or uploaded files)
+data/chroma_db/
+data/uploads/*
+!data/uploads/.gitkeep
+data/bm25_index/*.pkl
+*.pkl
+*.log
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test & cache
+.pytest_cache/
+.coverage
+htmlcov/

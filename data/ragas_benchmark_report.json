@@ -1,0 +1,55 @@
+{
+  "timestamp": 1791739410.0718002,
+  "total_benchmark_cases": 4,
+  "summary_metrics": {
+    "context_precision_dense": 1.0,
+    "context_precision_hybrid": 1.0,
+    "context_precision_flashrank": 1.0,
+    "context_precision_lift_percent": 0.0,
+    "faithfulness": 1.0,
+    "answer_relevancy": 0.826,
+    "ragas_score_aggregate": 0.942
+  },
+  "detailed_case_evaluations": [
+    {
+      "question": "How many days of annual leave and sick leave are full-time employees entitled to?",
+      "ground_truth": "Full-time employees receive 20 days of paid annual leave and 10 days of paid sick leave per year.",
+      "generated_answer": "20 days of annual leave and sick leave are full-time employees entitled to.",
+      "context_precision_dense": 1.0,
+      "context_precision_hybrid": 1.0,
+      "context_precision_flashrank": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.833
+    },
+    {
+      "question": "What is the per diem food allowance and hotel budget cap for business travel in Tier 1 cities?",
+      "ground_truth": "Daily food allowance (per diem) is up to $75 per business travel day. Hotel caps are up to $180/night for Tier 1 cities.",
+      "generated_answer": "The per diem food allowance and hotel budget cap for business travel in Tier 1 cities vary depending on the specific city, but generally range from $75 to $120.",
+      "context_precision_dense": 1.0,
+      "context_precision_hybrid": 1.0,
+      "context_precision_flashrank": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.938
+    },
+    {
+      "question": "What are the password policy requirements and remote access security controls?",
+      "ground_truth": "Password must be minimum 12 characters rotated every 90 days. Multi-Factor Authentication (MFA) is strictly mandatory for remote access.",
+      "generated_answer": "The password policy requirements and remote access security controls are mandatory for all endpoints connecting to corporate VPN or cloud environments.",
+      "context_precision_dense": 1.0,
+      "context_precision_hybrid": 1.0,
+      "context_precision_flashrank": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.906
+    },
+    {
+      "question": "What is the monthly reimbursement cap for gym memberships?",
+      "ground_truth": "Employees can claim up to $60 per month for gym membership reimbursement upon submitting original receipts.",
+      "generated_answer": "2. Health and Wellness Allowance Framework\nThe organization actively fosters physical vitality and mental health across all departments:\n \u007f Gym and Fitness Reimbursement: Employees can claim up to $60...",
+      "context_precision_dense": 1.0,
+      "context_precision_hybrid": 1.0,
+      "context_precision_flashrank": 1.0,
+      "faithfulness": 1.0,
+      "answer_relevancy": 0.625
+    }
+  ]
+}
