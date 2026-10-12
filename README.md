@@ -1,5 +1,9 @@
 # Enterprise Document Intelligence & Advanced RAG System
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](https://python.org)
+[![FlashRank Reranking](https://img.shields.io/badge/Reranker-FlashRank-purple.svg)](https://github.com/PrithivirajDamodaran/FlashRank)
+
 > **Production Multi-Document Q&A Engine with Hybrid Dense+Sparse Retrieval, FlashRank Reranking, and Citation Guardrails.**
 
 Built with **Python**, **LangChain**, **ChromaDB**, **Hugging Face**, **Flask**, and **FlashRank**.
@@ -194,6 +198,12 @@ python cli_demo.py
 ---
 
 ## 🔒 Security & Guardrail Specifications
-* **Strict Source Grounding**: Temperature locked at `0.1` to reduce stochastic variance.
-* **Deterministic Citations**: All factual responses require `[REF-X]` citations.
+* **Strict Source Grounding**: Temperature locked at `0.0` to reduce stochastic variance.
+* **Deterministic Citations**: All factual responses require `[1]`, `[2]` citations.
 * **Audit Compliance**: Ingestion tracks document SHA-256 hashes to prevent stale or altered policy indexing.
+
+---
+
+## 📄 License
+
+Distributed under the **MIT License**. See [`LICENSE`](LICENSE) for more information.
